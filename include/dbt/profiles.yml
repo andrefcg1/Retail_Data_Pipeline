@@ -5,7 +5,7 @@ retail:
     type: bigquery
     method: service-account
     keyfile: /usr/local/airflow/include/gcp/service_account.json
-    project: 'airflow-dbt-soda-pipeline'
+    project: 'ambient-elf-472302-i1'
     dataset: retail
     threads: 1
     timeout_seconds: 300

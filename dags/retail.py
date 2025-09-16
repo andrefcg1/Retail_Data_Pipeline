@@ -25,7 +25,7 @@ from airflow.models.baseoperator import chain
     tags=['retail'],
 )
 def retail():
-    bucket_name = 'alanceloth_online_retail'
+    bucket_name = 'andrefcg1_online_retail'
     @task.external_python(python='/usr/local/airflow/pandas_venv/bin/python')
     def correct_csv_format():
         import pandas as pd
